@@ -13,11 +13,15 @@
 }
 
 .infoCardHeadline {
-      color: black;
-      font-weight: bold;
+    font-family: serif;
+    font-size: 2.25rem;
+    font-weight: bold;
+    color: black;
+    border: 2px solid black;
+    padding: 24px;
 }
 
-.infoCardCallActionContainer :global(.vtex-button) {
+.infoCardCallActionContainer :global(.vtex-button):hover {
     color: white;
     background-color: gray;
     border: transparent;
