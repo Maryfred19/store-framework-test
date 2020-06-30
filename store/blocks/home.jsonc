@@ -1,12 +1,12 @@
 {
   "store.home": {
     "blocks": [
-      "slider-layout#home",
       "rich-text",
       "info-card#button-right",
       "info-card#button-left",
       "flex-layout.row", 
-      "shelf"
+      "shelf",
+      "slider-layout#home"
     ]
   },
   "info-card#button-right": {
